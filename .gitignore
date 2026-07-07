@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+*.pyc
+
+# local drafts and scratch files
+idea/
+prompt*.txt
+report_v2.md
+luxian.txt
+总结.txt
+
+# local data experiments
+data/
+gongbao/
+city_data.csv
+city_factors.md
+gongbao_*.json
+*_pilot.py
+pilot_gongbao.py
+extract_pilot.py
+fetch_*.py
+fill_h1_aqi.py
+parse_attachments.py
+rebuild_city_official_core.py
+test_nbs.py
