@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1 ">
+  
+
+    <!--站点类-->
+<meta name="SiteName" content="重庆市人民政府">
+<meta name="SiteDomain" content="http://www.cq.gov.cn">
+<meta name="SiteIDCode" content="5000000095">
+
+<!--栏目类-->
+<meta name="ColumnName" content="一图读懂">
+  
+	<meta name="ColumnDescription" content="一图读懂">
+
+
+  
+	<meta name="ColumnKeywords" content="一图读懂">
+
+
+  
+	<meta name="ColumnType" content="一图读懂">
+
+   
+<!--文章类-->
+<meta name="ArticleTitle" content="一图读懂《重庆市进一步推进软件和信息服务业“满天星”行动计划实施方案》">
+<meta name="PubDate" content="2026-01-08 16:51">
+<meta name="ContentSource" content="市经济信息委">
+<meta name="Keywords" content="">
+<meta name="Author" content="">
+<meta name="Description" content="">
+<meta name="Image" content="//www.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/ytdd/202601/W020260108610123310051.png">
+<meta name="Url" content="//www.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/ytdd/202601/t20260108_15301821.html">
+
+  <title>一图读懂《重庆市进一步推进软件和信息服务业“满天星”行动计划实施方案》</title>
+  <link rel="stylesheet" href="../../../../../images/public.css">
+  <link rel="stylesheet" href="../../../../../images/common.css">
+  <link rel="stylesheet" href="../../../../../images/c-gov-file-detail.css">
+  <script src="../../../../../images/jquery.min.js"></script>
+  <script>
+
+    $(function(){
+      $("#xgxx").hide();
+      var h = $('.common-main').outerHeight();
+      console.log(h);
+      if(h < 600){
+        $("#xgxx").show();
+      }
+    })
+ </script>
+
+    
+  <style type="text/css">
+    .cwx-xlbox2 .content-box1 .article-box .c-txt p span > img {
+      margin: 0 auto;
+    }
+    .detail_fj li a {
+      word-break: break-all;
+    }
+   .common-main .table {
+      width: 100%!important;
+    }
+.content .right .item ul li{ font-size:0.16rem!important;}
+@media screen and (max-width: 768px){
+.content .right .item ul li{ font-size:0.32rem!important; line-height:0.42rem;}
+.cwx-xlbox2 .content-box1 .article-box h2.title{ line-height:0.55rem;}
+#xgxx{border-top: 1px solid #eee;}
+.ldfg h3 {
+    font-size: 0.42rem;
+    border-left: 0.08rem solid #1764ce;
+    margin-bottom: .14rem;
+padding-top:.04rem;
+    line-height: 0.42rem;
+    height: 0.44rem;
+    box-sizing: border-box;
+    color: #1764ce;
+    padding-left: 0.1rem;
+margin-top:0.45rem;
+}
+
+
+
+}
+
+  </style>
+</head>
+<body class="common-detail">
+<link rel="stylesheet" type="text/css" href="/images/2024appstyle.css">
+<style>
+header #head-wap{display:block!important;}
+header #head-wap .head-top{background-image: url(/images/head-wap-bac.png);}
+.cwx-xlbox2{padding-bottom: .3rem;}
+</style>
+<div class="gzh-head" style="display:none;">
+    <header>
+        <section id="head-wap">
+            <div class="head-top">
+                <a class="head-logo">
+                    <img src="/images/head-logo-wap.png" />
+                </a>
+                <div class="head-search">
+                    <input type="text" id="searchWordWap" placeholder="请输入关键词" />
+                    <img id="toSearchWap" src="/images/head-wap-search.png" />
+                </div>
+            </div>
+        </section>
+    </header>
+    <script>
+    function generateUUID() { //获取sign
+        var d = new Date().getTime();
+        var uuid = 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function(c) {
+            var r = (d + Math.random() * 16) % 16 | 0;
+            d = Math.floor(d / 16);
+            return (c == 'x' ? r : (r & 0x7 | 0x8)).toString(16);
+        });
+        return uuid;
+    }
+    $('#toSearchWap').on('click', function(e) {
+        e.preventDefault()
+        var params = '';
+        var result = $("#searchWordWap").val();
+        result = $.trim(result);
+        //var reg = /[`~!@#$%^&*_+()-<>{}\/'[\]]/im;
+        var reg = /[`~!@#$%^&*_+<>{}\/'[\]]/im
+        /*if (reg.test(result)) {
+            new TipBox({type:'error',str:'您输入的信息包含非法字符!', hasBtn:true});
+            return false;
+        }*/
+        if (result == "搜索您想了解的政策/资讯/服务" || result == "请输入关键词" || result == "" || result == null) {
+            new TipBox({ type: 'error', str: '请输入搜索内容！', hasBtn: true });
+            return false;
+        } else {
+            // result = result.replace("-", "\-");
+            // result = result.replace("(", "\(");
+            // result = result.replace(")", "\)");
+            params = "?searchWord=" + encodeURIComponent(result) + "&tenantId=7&configTenantId=7&dataTypeId=7&sign=" + generateUUID();
+        }
+        // window.open('/cq/index.html'+params);
+        window.open('/cqgovsearch/search.html' + params);
+    })
+
+    $("#searchWordWap").keypress(function(event) {
+        if (event.which === 13) {
+            $('#toSearchWap').click();
+        }
+    });
+    </script>
+    <div class="app-nav">
+        <a class="tit cur" href="//www.cq.gov.cn/gzh/">要闻</a>
+        <a class="tit" href="//www.cq.gov.cn/gzh/szf/" >市政府</a>
+        <a class="tit" href="//www.cq.gov.cn/gzh/zc/">政策</a>
+        <a class="tit" href="//www.cq.gov.cn/gzh/ft/">访谈</a>
+        <a class="tit" href="//www.cq.gov.cn/gzh/fbh/">发布会</a>
+    </div>
+</div>
+
+<script type="text/javascript">
+    //不是app则显示头部
+    $(function(){
+        if(window.navigator.userAgent.indexOf('CQ_XHL') == -1){
+            $('.gzh-head').show();
+        }
+    })
+    
+    //高亮导航
+    var uri = window.location.pathname;
+    $(".app-nav .tit").each(function() {
+        $(this).removeClass("cur");
+    });
+    if (uri.indexOf("/gzh/szf/") >= 0||uri.indexOf("/szfld/") >= 0||uri.indexOf("/szfzyhy/") >= 0||uri.indexOf("/zfgzbg/") >= 0) {
+        $(".app-nav .tit").eq(1).addClass('cur');
+    } else if (uri.indexOf("/szfwj/") >= 0||uri.indexOf("/gzh/zc/") >= 0||uri.indexOf("/zcjd_120614/") >= 0||uri.indexOf("/hygq/") >= 0||uri.indexOf("/zwgk/search") >= 0) {
+        $(".app-nav .tit").eq(2).addClass('cur');
+    } else if (uri.indexOf("/hdjl/zxft/") >= 0||uri.indexOf("/gzh/ft/") >= 0) {
+        $(".app-nav .tit").eq(3).addClass('cur');
+    } else if (uri.indexOf("/gzh/fbh/") >= 0||uri.indexOf("/hdjl/xwfbh/") >= 0) {
+        $(".app-nav .tit").eq(4).addClass('cur');
+    } else {
+        $(".app-nav .tit").eq(0).addClass('cur');
+    }
+</script>
+
+<!-- 内容 -->
+<div class="common-main">
+  <!--当前位置-->
+
+  <!--政府信息公开-->
+<style>
+  @media screen and (max-width: 768px){
+    .content .right .item ul li{ font-size:0.32rem;}
+    .content .right .item .title, .content .left .item .title{font-size:0.32rem!important; font-weight:bold;}
+
+    .cwx-xlbox2 .content-box1 .article-box .cwx-msgs>span.lf{
+      flex-direction:initial;
+      display: block;
+      padding: 0 12px;
+      box-sizing: border-box;
+    }
+    .cwx-xlbox2 .content-box1 .article-box .cwx-msgs .pubtime{
+      float: right!important;
+      margin-right: 0!important;;
+    }
+    .cwx-xlbox2 .content-box1 .article-box .cwx-msgs>span.lf span{ margin-right:0.35rem}
+
+  }
+
+  .cwx-xlbox2 .content-box1 .article-box h2.title{ line-height:0.55rem;}
+  #customVideo{object-fit: fill!important;}
+</style>
+
+
+
+  <div class="cwx-main">
+    <div class="cwx-xlbox2 printArea" data-power-area="content">
+      <div class="content-box1">
+        <div class="article-box content">
+          <h2 class="title">一图读懂《重庆市进一步推进软件和信息服务业“满天星”行动计划实施方案》</h2>
+
+          <div class="cwx-after">
+            <style>
+              .cwx-after{text-align:center;color:#999;line-height: 36px;line-height: .36rem;font-size:16px;font-size:0.16rem;margin-top:35px;margin-top:0.35rem;}
+            </style>
+            发布时间：2026-01-08
+            <script>
+              var thisChannel = '一图读懂';
+              if(thisChannel !='重庆市情'){$(".cwx-after").hide();}
+            </script>
+          </div>
+          <div class="property  cwx-msgs clearfix">
+                                <span class="lf">
+                                  <script>if("市经济信息委"!=""){document.write('<span>市经济信息委</span>');}</script>
+                                  <span class="pubtime">2026-01-08</span>
+                                </span>
+            <div class="rt pt5 lh25 ">
+              <span class="ztdx2">字号:</span>
+              <a href="javascript:;" data-power-command="reducefont">[小]</a>
+              <a href="javascript:;" data-power-command="enlargefont">[大]</a>
+              <a class="dyzw" href="javascript:;" data-power-command="printarea">【打印正文】</a>
+              <div class="bdsharebuttonbox rt clearfix bdshare-button-style1-24" data-bd-bind="1606381034824">
+                <span class="lf">分享到：</span>
+                <a class=" bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+                <!--<a class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>-->
+              </div>
+            </div>
+          </div>
+          <script>
+            window._bd_share_config = {
+              "common": {
+                "bdSnsKey": {},
+                "bdText": "",
+                "bdMini": "2",
+                "bdMiniList": false,
+                "bdPic": "",
+                "bdStyle": "1",
+                "bdSize": "24"
+              },
+              "share": {}
+            };
+            with (document) {
+              0[(getElementsByTagName('head')[0] || body)
+                  .appendChild(createElement('script'))
+                  .src = '/baiduShare/static/api/js/share.js?v=89860593.js?cdnversion=' +
+                  ~(-new Date() / 36e5)];
+            }
+          </script>
+          <div class="c-txt left" data-power-defaultfontsize="16" data-power-defaultlineheight="2" data-power-imgmaxwidth="800">
+            <div style="margin:20px auto; margin: .2rem auto; display: none; background-color: rgb(0, 0, 0); cursor: pointer; height:500px;height:5rem;" id="a1">
+              <script type="text/javascript" src="//www.cq.gov.cn/images/ckplayer/ckplayer.js"></script>
+              <script type="text/javascript">
+                var size = "";
+                if(size.length > 5)$("#a1").css("display","block");
+                //视图时要用<viewdata Field='视图字段'>包围
+                var flashvars = {f:size, s:'0', c:'0', e:'2', v:'80', p:'0', lv:'0', i: "./W020260108610123310051.png", loaded:'loadedHandler', my_url:encodeURIComponent(window.location.href)};
+                var params = {bgcolor: '#FFF', allowFullScreen: true, allowScriptAccess: 'always', wmode: 'transparent'};
+                var video = [];
+                video.push(size);
+                CKobject.embed('//www.cq.gov.cn/images/ckplayer/ckplayer.swf', 'a1', 'ckplayer_a1', '100%', '100%', false, flashvars, video, params);
+              </script>
+            </div>
+
+
+            <div class="trs_editor_view TRS_UEDITOR trs_paper_default"><p style="text-align: center"><img src="./W020260108610117366176.png" data-uploadpic="U020260108609341181685.png" needdownload="true" data-needdownload="true" title="W020251231403790241790_ORIGIN.png" alt="" style="width:600px;" picname="W020251231403790241790_ORIGIN.png" OLDSRC="W020260108610117366176.png" /></p></div>
+
+            <div class="item item_fj" style="display:none;">
+              <div class="title mb-4"><i></i>附件</div>
+              <ul class="detail_fj">
+              </ul>
+              <script type="text/javascript">
+                var hasFJ='';
+                if(hasFJ!=''){
+                  var FJarr=hasFJ.split("<BR/>");
+                  var fj_str = ''
+                  for(var i=1;i<=FJarr.length;i++){
+                    fj_str += '<li><img style="display: inline-block;margin-right: 6px;" src="../../../../../images/ll-fujian.png" />'
+                        + FJarr[i-1]
+                        +'</li>'
+                  }
+                  $(".item_fj .detail_fj").html(fj_str);
+                  $(".item_fj").show()
+                  $(".detail_fj li a").each(function () {
+                    $(this).attr("download",$(this).html())
+                  })
+                }
+              </script>
+              <script>
+                function downloadAttach(guid,guid2,guid3){
+                  var downactionurl="https://ztb.cqggzy.com/CQTPBidder/jsgcztbmis2/pages/zbfilelingqu_hy/cQZBFileDownAttachAction.action?cmd=download&AttachGuid="
+                  window.location.href=downactionurl+guid+"&FileCode="+guid2+"&ClientGuid="+guid3;
+                }
+              </script>
+            </div>
+
+          </div>
+          <div class="right">
+            
+              <div class="item">
+                <div class="title mb-4"><i></i>政策原文</div>
+                <ul>
+                  
+                    <li><i></i><a style="font-weight: bold;color: #2789ee" href="../../../szfwj/xzgfxwj/szfbgt/202512/t20251230_15280764_app.html" target="_blank">重庆市人民政府办公厅关于转发市经济信息委等部门《重庆市进一步推进软件和信息服务业“满天星”行动计划实施方案》的通知</a></li>
+                  
+                </ul>
+              </div>
+              <style>
+                .content .left{
+                  width: 770px;
+                  width: 7.7rem;
+                  padding-right: 15px;
+                  padding-right: .15rem;
+                  border-right: 1px solid #eee;
+                }
+                .content .right{
+                  display: block;
+                  margin-top: .2rem;
+                }
+
+
+
+              </style>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <div id="xgxx">
+       <div class="ldfg" ><h3>相关信息</h3></div>
+      <div class="common-list">
+         <ul>
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-一图读懂 | 我市修订地震应急预案构建“平急协同、科学高效”应急新体系')" target="_blank"  href="../202603/t20260303_15487612_wap.html" title="一图读懂 | 我市修订地震应急预案构建“平急协同、科学高效”应急新体系">一图读懂 | 我市修订地震应急预案构建“平急协同、科学高效”应急新体系</a><span>2026-03-03</span></li>
+                    
+                    
+          
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-一图读懂丨重庆市支持食品及农产品加工产业高质量发展新十条政策')" target="_blank"  href="../202602/t20260227_15463905_wap.html" title="一图读懂丨重庆市支持食品及农产品加工产业高质量发展新十条政策">一图读懂丨重庆市支持食品及农产品加工产业高质量发展新十条政策</a><span>2026-02-27</span></li>
+                    
+                    
+          
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-一图读懂丨2026年全市安全生产和防灾减灾救灾工作要点')" target="_blank"  href="../202602/t20260227_15463888_wap.html" title="一图读懂丨2026年全市安全生产和防灾减灾救灾工作要点">一图读懂丨2026年全市安全生产和防灾减灾救灾工作要点</a><span>2026-02-27</span></li>
+                    
+                    
+          
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-一图读懂地震应急预案，这些内容与每一位重庆人息息相关！')" target="_blank"  href="./t20260129_15366170_wap.html" title="一图读懂地震应急预案，这些内容与每一位重庆人息息相关！">一图读懂地震应急预案，这些内容与每一位重庆人息息相关！</a><span>2026-01-29</span></li>
+                    
+                    
+          
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-一图读懂：《重庆市地震应急预案》')" target="_blank"  href="./t20260130_15370323_wap.html" title="一图读懂：《重庆市地震应急预案》">一图读懂：《重庆市地震应急预案》</a><span>2026-01-21</span></li>
+                    
+                    
+          
+        
+
+                
+                    
+                        <li><a onclick="clickMdEvent('Click_Matter','szfld','34','市政府-市政府领导-《重庆市推进空中丝绸之路建设实施方案》政策解读')" target="_blank"  href="./t20260129_15366156_wap.html" title="《重庆市推进空中丝绸之路建设实施方案》政策解读">《重庆市推进空中丝绸之路建设实施方案》政策解读</a><span>2026-01-10</span></li>
+                    
+                    
+          
+        
+  </ul>
+</div>
+</div>
+</div>
+
+
+<div class="SCROLLTOP"><img src="../../../../../images/scrollTop.png" /></div>
+
+
+    <div id="NewsArticleID" style="display:none;">15301821</div>
+<div id="NewsArticleTitle" style="display:none;">一图读懂《重庆市进一步推进软件和信息服务业“满天星”行动计划实施方案》</div>
+<div id="NewsEditionNumber" style="display:none;">120618</div>
+<div id="NewsEditionName" style="display:none;">一图读懂</div>
+
+<div id="NewsArticleType" style="display:none;">20</div>
+<div id="NewsArticleSource" style="display:none;">市经济信息委</div>
+<div id="NewsArticleAuthor" style="display:none;"></div>
+<div id="NewsArticlePubDay" style="display:none;">2026-01-08</div>
+
+</body>
+
+<script src="../../../../../images/public.js"></script>
+<script src="../../../../../images/common.js"></script>
+<script src="../../../../../images/headfoot.js"></script>
+<script src="../../../../../images/dy-0822.js"></script>
+<script src="../../../../../images/font-change-0822.js"></script>
+<script>
+  $('.common-main .table td, .common-main .table tr').removeAttr('width')
+</script>
+</html>
+
+   <script src="../../../../../images/pcormobilexl.js"></script>
+<!-- 底部 -->
+<script type="text/javascript" src="/images/jweixin-1.6.0.js"></script>
+<script type="text/javascript" src="/images/wx_sahre.js"></script>
+<style>
+/*h5细览右对齐*/
+@media screen and (max-width: 768px){
+.cwx-xlbox2 .content-box1 .article-box .cwx-msgs>span.lf{
+flex-direction:initial;
+display: block;
+    padding: 0 12px;
+    box-sizing: border-box;
+    }
+.cwx-xlbox2 .content-box1 .article-box .cwx-msgs>span.lf span:last-child{
+float: right;
+    margin-right: 0;;
+}
+}
+</style>
